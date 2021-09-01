@@ -1,7 +1,7 @@
 <br><h1> renross ePortfolio <h1>
  <br><p>My name is Ren Ross and I am in CISC275-011<p>
   
-   <br><a href="https://github.com/renross/renross.github.io">here's the repo</a>
+   <br><a href="https://github.com/renross/renross.github.io">Repo Link</a>
   
   
 <br><img src="images/picrew3.png" alt="renross github profile image">

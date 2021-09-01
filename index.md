@@ -5,4 +5,4 @@
   
   
   
-<img src="https://github.com/renross/renross.github.io/blob/main/images/picrew3.png" alt="renross github profile image">
+<img src="images/picrew3.png" alt="renross github profile image">

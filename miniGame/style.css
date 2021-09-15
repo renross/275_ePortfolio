@@ -1,0 +1,54 @@
+/* this is a class */
+.game {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+/* select element with id, using # */
+#miniGame {
+    width: 600px;
+    height: 300px;
+    background-color: darkgrey;
+    margin: auto;
+}
+
+#gamePiece {
+    width: 15px;
+    height: 15px;
+    background-color: coral;
+    position: relative; /* must be positioned so that positional attributes apply */
+    top: 284px; /* top of character model, useful for jump mechanics */
+    bottom: 680px;
+    left: 40px;
+}
+
+.animate {
+    animation: jump 300ms linear; 
+}
+
+@keyframes jump {
+    /* this will make the top position slide up 50px and then slide back down. */
+    0%{top: 284px;}
+    30%{top: 234px;}
+    70%{top: 234px;}
+    100%{top: 284px;}
+}
+
+#obstacle {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: fixed;
+    top: 309px;
+    bottom: 680px;
+    left: 900px;
+    right: 650px;
+    animation: obstacle 1s infinite linear;
+}
+
+@keyframes obstacle {
+    0%{left: 1000px;}
+    100%{left: 600px;}
+}

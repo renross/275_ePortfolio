@@ -49,5 +49,5 @@
 
 @keyframes obstacle {
     0%{left: 1000px;}
-    100%{left: 600px;}
+    100%{left: 400px;}
 }

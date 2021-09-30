@@ -10,7 +10,7 @@
 #miniGame {
     width: 816px;
     height: 386px;
-    background-image: url("../images/background.png");
+    background-image: url("../images/OGbackground.png");
     background-repeat: repeat-x;
     margin: auto;
 }

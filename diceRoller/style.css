@@ -1,0 +1,9 @@
+.whiteBox {
+    background-color: white;
+    color: black;
+    position: fixed;
+    width: 300px;
+    height: 120px;
+    top: 220px;
+    left: 740px;
+}

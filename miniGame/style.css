@@ -8,20 +8,21 @@
 
 /* select element with id, using # */
 #miniGame {
-    width: 600px;
-    height: 300px;
-    background-color:cornsilk;
+    width: 816px;
+    height: 386px;
+    background-image: url("../images/background.png");
+    background-repeat: repeat-x;
     margin: auto;
 }
 
 #gamePiece {
-    width: 15px;
-    height: 15px;
-    background-color: coral;
+    width: 55px;
+    height: 55px;
+    background-image: url("../images/ghost.png");
+    background-repeat: repeat-x;
     position: relative; /* must be positioned so that positional attributes apply */
-    top: 284px; /* top of character model, useful for jump mechanics */
-    bottom: 680px;
-    left: 100px;
+    top: 330px; /* top of character model, useful for jump mechanics */
+    left: 130px;
 }
 
 .animate {
@@ -37,17 +38,17 @@
 }
 
 #obstacle {
-    width: 20px;
-    height: 20px;
-    background-color: black;
+    width: 79px;
+    height: 95px;
+    background-image: url("../images/grave.png");
+    background-repeat: repeat-x;
     position: fixed;
-    top: 290px;
-    left: 900px;
-    right: 650px;
+    top: 310px;
+    left: 1235px;
     animation: obstacle 1s infinite linear;
 }
 
 @keyframes obstacle {
-    0%{left: 1000px;}
-    100%{left: 400px;}
+    0%{left: 1235px;}
+    100%{left: 470px;}
 }
